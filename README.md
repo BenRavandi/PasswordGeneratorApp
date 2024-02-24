@@ -21,4 +21,4 @@ Screenshot of my password generating application is available:
 ## Test
 
 The following link will take you to my application: <br>
- <a href="https://benravandi.github.io/challenge1/">Visit MyPasswordGeneratorApp!</a>
+ <a href="https://benravandi.github.io/PasswordGeneratorApp/">Visit MyPasswordGeneratorApp!</a>
