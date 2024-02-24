@@ -19,6 +19,11 @@ function generatePassword() {
     alert("Value is required:\n --------> Try again and choose between 8-128 characters <---------");
     return generatePassword();
 
+    // Only accept if they entered a number
+  } else if (!isFinite(passwordLength)) {
+    alert("Value must be a Number ONLY:\n -->Try again and choose only a number between 8-128 characters<--");
+    return generatePassword();
+
   } else if (passwordLength < 8 || passwordLength > 128) {
     alert("You must input a number between 8-128 characters:\n --------> Try again please <--------");
     return generatePassword();
